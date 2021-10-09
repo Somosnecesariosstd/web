@@ -1,0 +1,35 @@
+{
+	"private": true,
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start",
+		"commit": "cz",
+		"release": "standard-version"
+	},
+	"devDependencies": {
+		"@emotion/babel-plugin": "11.0.0",
+		"@svgr/webpack": "^5.5.0",
+		"autoprefixer": "^10.3.6",
+		"cz-conventional-changelog": "3.3.0",
+		"eslint": "7.32.0",
+		"eslint-config-next": "11.1.2",
+		"postcss": "^8.3.8",
+		"standard-version": "^9.3.1",
+		"tailwindcss": "^2.2.16"
+	},
+	"dependencies": {
+		"@emotion/react": "11.1.1",
+		"@emotion/styled": "11.0.0",
+		"embla-carousel-react": "^5.0.1",
+		"next": "latest",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-scroll-wheel-handler": "^2.1.0"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	}
+}

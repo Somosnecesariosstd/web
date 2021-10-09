@@ -1,0 +1,98 @@
+@font-face {
+	font-family: 'Roc Grotesk';
+	src: url('/fonts/rockgrotesk/RocGrotesk-Thin.eot');
+	src: url('/fonts/rockgrotesk/RocGrotesk-Thin.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/rockgrotesk/RocGrotesk-Thin.woff2') format('woff2'),
+		url('/fonts/rockgrotesk/RocGrotesk-Thin.woff') format('woff'),
+		url('/fonts/rockgrotesk/RocGrotesk-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roc Grotesk';
+	src: url('/fonts/rockgrotesk/RocGrotesk-ExtraLight.eot');
+	src: url('/fonts/rockgrotesk/RocGrotesk-ExtraLight.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/rockgrotesk/RocGrotesk-ExtraLight.woff2') format('woff2'),
+		url('/fonts/rockgrotesk/RocGrotesk-ExtraLight.woff') format('woff'),
+		url('/fonts/rockgrotesk/RocGrotesk-ExtraLight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roc Grotesk';
+	src: url('/fonts/rockgrotesk/RocGrotesk-Light.eot');
+	src: url('/fonts/rockgrotesk/RocGrotesk-Light.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/rockgrotesk/RocGrotesk-Light.woff2') format('woff2'),
+		url('/fonts/rockgrotesk/RocGrotesk-Light.woff') format('woff'),
+		url('/fonts/rockgrotesk/RocGrotesk-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roc Grotesk';
+	src: url('/fonts/rockgrotesk/RocGrotesk-Regular.eot');
+	src: url('/fonts/rockgrotesk/RocGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/rockgrotesk/RocGrotesk-Regular.woff2') format('woff2'),
+		url('/fonts/rockgrotesk/RocGrotesk-Regular.woff') format('woff'),
+		url('/fonts/rockgrotesk/RocGrotesk-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roc Grotesk';
+	src: url('/fonts/rockgrotesk/RocGrotesk-Medium.eot');
+	src: url('/fonts/rockgrotesk/RocGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/rockgrotesk/RocGrotesk-Medium.woff2') format('woff2'),
+		url('/fonts/rockgrotesk/RocGrotesk-Medium.woff') format('woff'),
+		url('/fonts/rockgrotesk/RocGrotesk-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roc Grotesk';
+	src: url('/fonts/rockgrotesk/RocGrotesk-Bold.eot');
+	src: url('/fonts/rockgrotesk/RocGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/rockgrotesk/RocGrotesk-Bold.woff2') format('woff2'),
+		url('/fonts/rockgrotesk/RocGrotesk-Bold.woff') format('woff'),
+		url('/fonts/rockgrotesk/RocGrotesk-Bold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roc Grotesk';
+	src: url('/fonts/rockgrotesk/RocGrotesk-ExtraBold.eot');
+	src: url('/fonts/rockgrotesk/RocGrotesk-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/rockgrotesk/RocGrotesk-ExtraBold.woff2') format('woff2'),
+		url('/fonts/rockgrotesk/RocGrotesk-ExtraBold.woff') format('woff'),
+		url('/fonts/rockgrotesk/RocGrotesk-ExtraBold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roc Grotesk';
+	src: url('/fonts/rockgrotesk/RocGrotesk-Heavy.eot');
+	src: url('/fonts/rockgrotesk/RocGrotesk-Heavy.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/rockgrotesk/RocGrotesk-Heavy.woff2') format('woff2'),
+		url('/fonts/rockgrotesk/RocGrotesk-Heavy.woff') format('woff'),
+		url('/fonts/rockgrotesk/RocGrotesk-Heavy.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roc Grotesk';
+	src: url('/fonts/rockgrotesk/RocGrotesk-Black.eot');
+	src: url('/fonts/rockgrotesk/RocGrotesk-Black.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/rockgrotesk/RocGrotesk-Black.woff2') format('woff2'),
+		url('/fonts/rockgrotesk/RocGrotesk-Black.woff') format('woff'),
+		url('/fonts/rockgrotesk/RocGrotesk-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}

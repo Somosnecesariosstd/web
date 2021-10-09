@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Roc Grotesk ExtraWide';
+    src: url('RocGrotesk-ExtraWideExtraBold.eot');
+    src: url('RocGrotesk-ExtraWideExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('RocGrotesk-ExtraWideExtraBold.woff2') format('woff2'),
+        url('RocGrotesk-ExtraWideExtraBold.woff') format('woff'),
+        url('RocGrotesk-ExtraWideExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk ExtraWide';
+    src: url('RocGrotesk-ExtraWideLight.eot');
+    src: url('RocGrotesk-ExtraWideLight.eot?#iefix') format('embedded-opentype'),
+        url('RocGrotesk-ExtraWideLight.woff2') format('woff2'),
+        url('RocGrotesk-ExtraWideLight.woff') format('woff'),
+        url('RocGrotesk-ExtraWideLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk ExtraWide';
+    src: url('RocGrotesk-ExtraWideHeavy.eot');
+    src: url('RocGrotesk-ExtraWideHeavy.eot?#iefix') format('embedded-opentype'),
+        url('RocGrotesk-ExtraWideHeavy.woff2') format('woff2'),
+        url('RocGrotesk-ExtraWideHeavy.woff') format('woff'),
+        url('RocGrotesk-ExtraWideHeavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk ExWide ExLight';
+    src: url('RocGrotesk-ExtraWideExtraLight.eot');
+    src: url('RocGrotesk-ExtraWideExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('RocGrotesk-ExtraWideExtraLight.woff2') format('woff2'),
+        url('RocGrotesk-ExtraWideExtraLight.woff') format('woff'),
+        url('RocGrotesk-ExtraWideExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk ExtraWide';
+    src: url('RocGrotesk-ExtraWideThin.eot');
+    src: url('RocGrotesk-ExtraWideThin.eot?#iefix') format('embedded-opentype'),
+        url('RocGrotesk-ExtraWideThin.woff2') format('woff2'),
+        url('RocGrotesk-ExtraWideThin.woff') format('woff'),
+        url('RocGrotesk-ExtraWideThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk ExtraWide';
+    src: url('RocGrotesk-ExtraWideBlack.eot');
+    src: url('RocGrotesk-ExtraWideBlack.eot?#iefix') format('embedded-opentype'),
+        url('RocGrotesk-ExtraWideBlack.woff2') format('woff2'),
+        url('RocGrotesk-ExtraWideBlack.woff') format('woff'),
+        url('RocGrotesk-ExtraWideBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk ExtraWide';
+    src: url('RocGrotesk-ExtraWideBold.eot');
+    src: url('RocGrotesk-ExtraWideBold.eot?#iefix') format('embedded-opentype'),
+        url('RocGrotesk-ExtraWideBold.woff2') format('woff2'),
+        url('RocGrotesk-ExtraWideBold.woff') format('woff'),
+        url('RocGrotesk-ExtraWideBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk ExtraWide';
+    src: url('RocGrotesk-ExtraWide.eot');
+    src: url('RocGrotesk-ExtraWide.eot?#iefix') format('embedded-opentype'),
+        url('RocGrotesk-ExtraWide.woff2') format('woff2'),
+        url('RocGrotesk-ExtraWide.woff') format('woff'),
+        url('RocGrotesk-ExtraWide.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk ExtraWide';
+    src: url('RocGrotesk-ExtraWideMedium.eot');
+    src: url('RocGrotesk-ExtraWideMedium.eot?#iefix') format('embedded-opentype'),
+        url('RocGrotesk-ExtraWideMedium.woff2') format('woff2'),
+        url('RocGrotesk-ExtraWideMedium.woff') format('woff'),
+        url('RocGrotesk-ExtraWideMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+

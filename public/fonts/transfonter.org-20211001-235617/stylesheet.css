@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Roc Grotesk';
+    src: url('RocGrotesk-Light.eot');
+    src: url('RocGrotesk-Light.eot?#iefix') format('embedded-opentype'),
+        url('RocGrotesk-Light.woff2') format('woff2'),
+        url('RocGrotesk-Light.woff') format('woff'),
+        url('RocGrotesk-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk';
+    src: url('RocGrotesk-Medium.eot');
+    src: url('RocGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+        url('RocGrotesk-Medium.woff2') format('woff2'),
+        url('RocGrotesk-Medium.woff') format('woff'),
+        url('RocGrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk';
+    src: url('RocGrotesk-Black.eot');
+    src: url('RocGrotesk-Black.eot?#iefix') format('embedded-opentype'),
+        url('RocGrotesk-Black.woff2') format('woff2'),
+        url('RocGrotesk-Black.woff') format('woff'),
+        url('RocGrotesk-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk';
+    src: url('RocGrotesk-Thin.eot');
+    src: url('RocGrotesk-Thin.eot?#iefix') format('embedded-opentype'),
+        url('RocGrotesk-Thin.woff2') format('woff2'),
+        url('RocGrotesk-Thin.woff') format('woff'),
+        url('RocGrotesk-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk';
+    src: url('RocGrotesk-Regular.eot');
+    src: url('RocGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+        url('RocGrotesk-Regular.woff2') format('woff2'),
+        url('RocGrotesk-Regular.woff') format('woff'),
+        url('RocGrotesk-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk';
+    src: url('RocGrotesk-Bold.eot');
+    src: url('RocGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+        url('RocGrotesk-Bold.woff2') format('woff2'),
+        url('RocGrotesk-Bold.woff') format('woff'),
+        url('RocGrotesk-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk';
+    src: url('RocGrotesk-Heavy.eot');
+    src: url('RocGrotesk-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('RocGrotesk-Heavy.woff2') format('woff2'),
+        url('RocGrotesk-Heavy.woff') format('woff'),
+        url('RocGrotesk-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk';
+    src: url('RocGrotesk-ExtraBold.eot');
+    src: url('RocGrotesk-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('RocGrotesk-ExtraBold.woff2') format('woff2'),
+        url('RocGrotesk-ExtraBold.woff') format('woff'),
+        url('RocGrotesk-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roc Grotesk';
+    src: url('RocGrotesk-ExtraLight.eot');
+    src: url('RocGrotesk-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('RocGrotesk-ExtraLight.woff2') format('woff2'),
+        url('RocGrotesk-ExtraLight.woff') format('woff'),
+        url('RocGrotesk-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
