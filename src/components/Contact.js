@@ -83,19 +83,19 @@ const Contact = () => {
       </SubTitle>
       <Ul>
         <Li>
-          <a href="https://instagram.com/somosnecesarios" target="_blank" className="flex flex-nowrap items-center flex-row	">
+          <a href="https://instagram.com/somosnecesarios" target="_blank" className="flex flex-nowrap items-center flex-row" rel="noreferrer">
             <Ig />
             <span>somosnecesarios</span>
           </a>
         </Li>
         <Li>
-          <a href="mailto: somosnecesarios@gmail.com" className="flex flex-nowrap items-center flex-row	">
+          <a href="mailto: somosnecesarios@gmail.com" className="flex flex-nowrap items-center flex-row	" >
             <Mail />
             <span>somosnecesarios@gmail.com</span>
           </a>
         </Li>
         <Li>
-          <a href="hhtps://wa.me/2235265866" target="_blank" className="flex flex-nowrap items-center flex-row	">
+          <a href="hhtps://wa.me/2235265866" target="_blank" className="flex flex-nowrap items-center flex-row" rel="noreferrer">
             <WhatsApp />
             <span>2235265866</span>
           </a>
