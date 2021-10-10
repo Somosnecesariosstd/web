@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import NextArrow from "src/components/NextArrow";
 import Menu from "src/components/Menu";
 import useEmblaCarousel from "embla-carousel-react";
@@ -21,6 +21,7 @@ const EmblaSlide = styled.div`
 `;
 
 const Index = () => {
+  const [revert, setRevert] = useState(false)
   const [emblaRef, embla] = useEmblaCarousel({ dragFree: true });
 
   const scrollPrev = useCallback(() => embla && embla.scrollPrev(), [embla]);
@@ -31,8 +32,12 @@ const Index = () => {
     [embla]
   );
 
-  useState(() => {
-    console.log(embla);
+
+
+  useEffect(() => {
+    embla && embla.on('select', () => {
+      setRevert(embla.selectedScrollSnap() === 3)
+    })
   }, [embla]);
 
   return (
@@ -68,7 +73,7 @@ const Index = () => {
           </EmblaSlide>
         </EmblaContainer>
       </Embla>
-      <NextArrow />
+      <NextArrow revert={revert} />
     </div>
   );
 };

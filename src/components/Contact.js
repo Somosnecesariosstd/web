@@ -3,6 +3,7 @@ import styled from "@emotion/styled";
 import Ig_ from "src/assets/SVG/ig.svg";
 import Mail_ from "src/assets/SVG/mail.svg";
 import WhatsApp_ from "src/assets/SVG/phone.svg";
+import { mediaBreakpointUp } from 'src/styles/styles'
 
 const Ig = styled(Ig_)`
   width: 64px;
@@ -19,9 +20,11 @@ const WhatsApp = styled(WhatsApp_)`
 
 const Wrap = styled.div`
   position: relative;
-  padding-left: 170px;
   margin-top: 10vh;
   margin-left: 4vh;
+	${mediaBreakpointUp.md`
+  padding-left: 170px;
+	`}
 `;
 const Ul = styled.ul`
   height: 300px;
@@ -30,17 +33,29 @@ const Ul = styled.ul`
   justify-content: center;
   svg{
       display: inline;
+      max-width: 25px;
+      margin-right: 8px;
   }
+  
+	${mediaBreakpointUp.md`
+  svg{
+    width: auto;
+  }
+	`}
 `;
 const Li = styled.li`
+font-size: 24px;
+line-height: 20px;
+	${mediaBreakpointUp.md`
   font-size: 85px;
   line-height: 76px;
+	`}
 `;
 const Title = styled.h3`
   width: 500px;
   font-size: 88px;
   transform: translateY(-50%) rotate(90deg);
-  display: inline-block;
+
   position: absolute;
   left: -220px;
   top: 50%;
@@ -49,33 +64,38 @@ const Title = styled.h3`
 `;
 const SubTitle = styled.h4`
   width: 500px;
+  font-size: 34px;
+  line-height: 30px;
+  max-width: 90vw;
+	${mediaBreakpointUp.md`
   font-size: 105px;
   line-height: 82px;
+	`}
 `;
 
 const Contact = () => {
   return (
     <Wrap>
-      <Title className="font-thin">CONTACTO</Title>
+      <Title className="font-thin hidden md:inline-block">CONTACTO</Title>
       <SubTitle>
         TRABAJEMOS <br />
         JUNTOS
       </SubTitle>
       <Ul>
         <Li>
-          <a href="https://instagram.com/somosnecesarios">
+          <a href="https://instagram.com/somosnecesarios" target="_blank" className="flex flex-nowrap items-center flex-row	">
             <Ig />
             <span>somosnecesarios</span>
           </a>
         </Li>
         <Li>
-          <a href="mailto: somosnecesarios@gmail.com">
+          <a href="mailto: somosnecesarios@gmail.com" className="flex flex-nowrap items-center flex-row	">
             <Mail />
             <span>somosnecesarios@gmail.com</span>
           </a>
         </Li>
         <Li>
-          <a href="hhtps://wa.me/2235265866">
+          <a href="hhtps://wa.me/2235265866" target="_blank" className="flex flex-nowrap items-center flex-row	">
             <WhatsApp />
             <span>2235265866</span>
           </a>

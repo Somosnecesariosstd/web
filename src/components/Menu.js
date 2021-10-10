@@ -1,7 +1,7 @@
 import React from "react";
 import { keyframes } from "@emotion/react";
 import styled from "@emotion/styled";
-import Ellipse from "src/assets/SVG/ellipse.svg";
+import { mediaBreakpointUp } from 'src/styles/styles'
 
 const dash = keyframes`
   to {
@@ -16,6 +16,10 @@ const Nav = styled.nav`
   left: 4vh;
   bottom: 4vh;
   z-index: 9;
+  display:none;
+	${mediaBreakpointUp.md`
+    display:block !important;
+	`}
 `;
 
 const MenuItem = styled.li``;

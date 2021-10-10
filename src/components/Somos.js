@@ -3,6 +3,7 @@ import styled from "@emotion/styled";
 import Sticker_ from "src/assets/SVG/sticker.svg";
 import Stickers_ from "src/assets/SVG/stickers.svg";
 import { keyframes } from "@emotion/react";
+import { mediaBreakpointUp } from 'src/styles/styles'
 
 const drop = keyframes`
 0% {
@@ -44,45 +45,74 @@ const drop = keyframes`
 const Title = styled.h2`
   line-height: 0.8;
   margin-top: 5vh;
-  margin-left: 5vh;
   padding-bottom: 4vh;
+  max-width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
   span {
-    font-size: 196px;
+    font-size: ${185 * 0.3}px;
     display: block;
     font-weight: 100;
   }
   strong {
-    font-size: 185px;
+    font-size: ${185 * 0.3}px;
     display: block;
     font-weight: 800;
   }
+	${mediaBreakpointUp.md`
+  margin-left: 5vh;
+    span {
+      font-size: 196px;
+    }
+    strong {
+      font-size: 185px;
+    }
+	`}
 `;
 
 const Text = styled.div`
-  line-height: 36px;
-  max-width: 768px;
-  margin-left: auto;
-  margin-right: auto;
-  p {
-    text-align: justify;
-
-    font-size: 35px;
-    margin-bottom: 40px;
-  }
+margin-left: auto;
+margin-right: auto;
+max-width: 90vw;
+p {
+  text-align: justify;
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 19px;
+}
+${mediaBreakpointUp.lg`
+    line-height: 36px;
+    max-width: 768px;
+    p{
+      margin-bottom: 40px;
+      font-size: 35px;
+    }
+	`}
 `;
 
 const Sticker = styled(Sticker_)`
   position: absolute;
-  width: 195px;
-  left: 22vh;
-  top: 42vh;
+    width: 95px;
+    left: 35%;
+    bottom: 150px;
+	${mediaBreakpointUp.md`
+    width: 195px;
+    left: 22vh;
+    top: 42vh;
+	`}
 `;
 const Stickers = styled(Stickers_)`
   position: absolute;
+  animation: ${drop} 1.1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  width: 100px;
+  left: 10px;
+  bottom: 10px;
+	${mediaBreakpointUp.md`
   width: 300px;
   right: 5vh;
   top: 5vh;
-  animation: ${drop} 1.1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  left: auto;
+	`}
 `;
 
 const Somos = () => {
