@@ -89,13 +89,13 @@ const Contact = () => {
           </a>
         </Li>
         <Li>
-          <a href="mailto: somosnecesarios@gmail.com" className="flex flex-nowrap items-center flex-row	" >
+          <a href="mailto: hola@somosnecesarios.com.ar" className="flex flex-nowrap items-center flex-row" >
             <Mail />
-            <span>somosnecesarios@gmail.com</span>
+            <span>hola@somosnecesarios.com.ar</span>
           </a>
         </Li>
         <Li>
-          <a href="hhtps://wa.me/2235265866" target="_blank" className="flex flex-nowrap items-center flex-row" rel="noreferrer">
+          <a href="https://wa.me/5492235265866" target="_blank" className="flex flex-nowrap items-center flex-row" rel="noreferrer">
             <WhatsApp />
             <span>2235265866</span>
           </a>
